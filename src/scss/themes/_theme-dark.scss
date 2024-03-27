@@ -1,0 +1,62 @@
+body.dark {
+  background-color: $dm-navy-blue;
+  .header {
+    &__devfinder {
+      color: $white;
+    }
+    &__theme {
+      color: $white;
+      &:hover {
+        filter: brightness(0) saturate(100%) invert(64%) sepia(18%)
+          saturate(677%) hue-rotate(185deg) brightness(99%) contrast(88%);
+      }
+    }
+    &__theme-a {
+      color: $white;
+    }
+    &__theme-icon {
+      &--sun {
+        display: block;
+      }
+      &--moon {
+        display: none;
+      }
+    }
+  }
+  .search-bar {
+    background-color: $dm-dark-blue;
+    &__input {
+      color: $white;
+    }
+  }
+  ::placeholder {
+    color: $white;
+  }
+  .result {
+    background-color: $dm-dark-blue;
+    &__name {
+      color: $white;
+    }
+    &__joined {
+      color: $white;
+    }
+    &__bio {
+      color: $white;
+    }
+    &__stats {
+      background-color: $dm-navy-blue;
+    }
+    &__stats-label {
+      color: $white;
+    }
+    &__stat {
+      color: $white;
+    }
+    &__links-icon {
+      filter: brightness(2500%);
+    }
+    &__links-value {
+      color: $white;
+    }
+  }
+}

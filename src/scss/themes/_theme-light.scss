@@ -1,0 +1,59 @@
+body.light {
+  background-color: $lm-light-gray;
+  .header {
+    &__devfinder {
+      color: $lm-dark-blue;
+    }
+    &__theme {
+      color: $lm-desaturated-blue;
+      &:hover {
+        filter: brightness(0) saturate(100%) invert(13%) sepia(8%)
+          saturate(1452%) hue-rotate(182deg) brightness(96%) contrast(94%);
+      }
+    }
+    &__theme-a {
+      color: $lm-desaturated-blue;
+    }
+    &__theme-icon {
+      &--sun {
+        display: none;
+      }
+      &--moon {
+        display: block;
+      }
+    }
+  }
+  .search-bar {
+    background-color: $lm-white;
+    &__input {
+      color: $lm-black;
+    }
+  }
+  ::placeholder {
+    color: $lm-desaturated-blue;
+  }
+  .result {
+    background-color: $lm-white;
+    &__name {
+      color: $lm-dark-blue;
+    }
+    &__joined {
+      color: $lm-grayish-blue;
+    }
+    &__bio {
+      color: $lm-desaturated-blue;
+    }
+    &__stats {
+      background-color: $lm-light-gray;
+    }
+    &__stats-label {
+      color: $lm-desaturated-blue;
+    }
+    &__stat {
+      color: $lm-dark-blue;
+    }
+    &__links-value {
+      color: $lm-desaturated-blue;
+    }
+  }
+}
