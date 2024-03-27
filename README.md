@@ -1,16 +1,11 @@
-# Frontend Mentor - GitHub user search app solution
-
-This is a solution to the [GitHub user search app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-- [Author](#author)
+
 
 ## Overview
 
@@ -29,11 +24,6 @@ Users should be able to:
 
 ![](./screenshot.png)
 
-### Links
-
-- Solution URL: [GitHub](https://github.com/GrzywN/github-user-search-app)
-- Live Site URL: [Netlify](https://relaxed-hopper-1aeca1.netlify.app/)
-
 ## My process
 
 ### Built with
@@ -45,8 +35,3 @@ Users should be able to:
 - Vanilla JavaScript
 - GSAP animations
 - Particle.js particle effects
-
-## Author
-
-- Frontend Mentor - [@GrzywN](https://www.frontendmentor.io/profile/GrzywN)
-- Twitter - [@GrzywN](https://www.twitter.com/GrzywN)
